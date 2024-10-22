@@ -950,7 +950,7 @@ class AudioWindow(QWidget):
                            f'\nContext: {self.subtitles[current_audio][-1]}')
                 else:
                     add = "\nNo info for this line"
-            self.text_label.setText(f"Line: {current_key}\nAudio: {current_audio}\n" + add)
+            self.text_label.setText(f"Group: {current_key}\nAudio: {current_audio}\n" + add)
         except Exception as e:
             log.write_log("WARN: Dub assist, can't update text label: ", e)
 
