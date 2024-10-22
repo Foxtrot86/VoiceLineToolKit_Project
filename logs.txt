@@ -1,0 +1,7 @@
+
+
+ --- App launched, at 2024-10-22 23:22:47 ---
+
+
+INFO: Config file readable: config.ini
+INFO: Config data edited by the code
